@@ -1,0 +1,85 @@
+body {
+	font:'Balsamiq Sans','Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, #bdc3c7 , #2c3e50);
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font: 600 3.5em 'Balsamiq Sans', 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Balsamiq Sans', 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+#header{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colorinputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#random-button{
+    margin: 20px;
+}
+
+#random{
+    border: 0px solid transparent;
+    background-color:rgba(0,0,0,.5) ;
+    color: rgba(192, 190, 190, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#colorcode{
+    display:flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 10px;
+}
+
+.color1, .color2{
+    border: none;
+    box-shadow: none;
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    background-color:rgba(0,0,0,.5);
+}
+
+@media (max-width: 480px){
+    h1 {
+        font-size: 26px;
+    }
+
+    #header{
+        margin-top: 60px;
+    }
+}
