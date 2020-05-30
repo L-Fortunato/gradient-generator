@@ -1,5 +1,5 @@
 body {
-	font:'Balsamiq Sans','Raleway', sans-serif;
+	font:'Montserrat Alternates', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
@@ -12,7 +12,7 @@ body {
 
 
 h1 {
-    font: 600 3.5em 'Balsamiq Sans', 'Raleway', sans-serif;
+    font: 600 3.5em 'Montserrat Alternates', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
@@ -20,8 +20,12 @@ h1 {
     width: 100%;
 }
 
+h2, button {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
 h3 {
-	font: 900 1em 'Balsamiq Sans', 'Raleway', sans-serif;
+	font: 900 1em 'Montserrat Alternates', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
